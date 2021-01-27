@@ -231,8 +231,44 @@ h2{
   color: #808080;
 }
 
-.footer{
+footer{
   /* debug */
-  height: 40px;
-  background-color: purple;
+  height: 180px;
+  background-color:#d3d3d3;
+}
+.footer{
+ font-size: 40px;
+  line-height:120px;
+}
+
+.footer2{
+  color: #808080;
+  font-size: 20px;
+  padding-left: 400px;
+}
+
+span .select {
+  background-color: #d3d3d3;
+  color: #808080;
+  margin-left: 15px;
+  padding: 15px 30px 15px 0;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.green-buttom{
+  border: 1px solid #7cbb02;;
+  background-color: #7cbb02;;
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.green-help{
+  border: 1px solid #7cbb02;;
+  background-color: #7cbb02;;
+  padding: 20px 15px;
+  border-radius: 5px;
+  color: white;
+  margin-left: 960px;
 }
