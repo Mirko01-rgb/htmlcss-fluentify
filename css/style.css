@@ -13,10 +13,10 @@
 
 }
 
-/* .container {
-  width: 80%;
+ .container {
+  width: 90%;
   margin: 0 auto;
-} */
+}
 
 /* Parte header */
 header{
@@ -30,22 +30,22 @@ header{
 
 }
 
-#main-nav li {
+.main-nav li {
   display: inline-block;
   list-style-type: none;
-  margin-left:20px;
+  margin-left:15px;
   font-size:13px;
   margin-top: 10px;
 
 }
 
-#main-nav li a{
+.main-nav li a{
   color: white;
   text-decoration: none;
 }
 
 .margine-diventatutor a{
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .border-login a{
@@ -85,7 +85,7 @@ h1{
   font-size: 50px;
   font-weight: bold;
   color: white;
-  width: 40%;
+  width: 50%;
   margin: 0;
   padding-top: 100px;
 
