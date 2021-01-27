@@ -79,8 +79,6 @@ header{
   height: 700px;
 }
 
-
-
 h1{
   font-size: 50px;
   font-weight: bold;
@@ -91,14 +89,15 @@ h1{
 
 }
 
-.background-green-piùgrande{
+.background-green-piùgrande a{
   border: 1px solid #7cbb02;;
   background-color: #7cbb02;;
   padding: 20px 15px;
   border-radius: 5px;
   color: white;
-   display: inline-block;     /* per dargli il margine a span, essendo solo un inline */
+  display: inline-block;     /* per dargli il margine a span, essendo solo un inline */
   margin-top: 50px;
+  text-decoration: none;
 }
 
 
@@ -107,10 +106,31 @@ h1{
 
 .parte2{
   /* debug */
-  background-color: lightblue;
-  height:70px;
+  background-color: #d3d3d3;
+  height:150px;
 
 }
+
+h3{
+  font-size: 30px;
+  text-align: center;
+  margin:0;
+  padding-top: 35px;
+}
+
+h6{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0;
+  color: #808080;
+}
+
+
+
+
+
+
+
 
 .sezione1{
   float: left;
