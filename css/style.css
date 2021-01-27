@@ -141,7 +141,7 @@ header{
 .immagine-profile img{
   width: 200px;
   padding-left: 60px;
-  padding-top: 25px;
+  padding-top: 30px;
 
 }
 
@@ -157,6 +157,11 @@ h2{
   font-size: 20px;
 }
 
+.linea{
+  width: 20%;
+  margin: 2% auto;
+  border: 1px solid #808080;
+}
 
 
 
@@ -192,10 +197,14 @@ h2{
 .immagine-doc img{
   width: 220px;
   padding-left: 60px;
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
-
+.linea-totale{
+  width: 90%;
+  margin: 2% auto;
+  border: 1px solid #d3d3d3;
+}
 
 
 .sezione4{
@@ -245,7 +254,7 @@ footer{
 .footer2{
   color: #808080;
   font-size: 20px;
-  padding-left: 400px;
+  padding-left: 350px;
 }
 
 span .select {
@@ -257,19 +266,24 @@ span .select {
   font-size: 15px;
 }
 
-.green-buttom{
+.green-buttom a{
   border: 1px solid #7cbb02;;
   background-color: #7cbb02;;
   padding: 20px 15px;
   border-radius: 5px;
   color: white;
+  text-decoration: none;
 }
 
-.green-help{
+.green-help a{
   border: 1px solid #7cbb02;;
   background-color: #7cbb02;;
   padding: 20px 15px;
   border-radius: 5px;
   color: white;
-  margin-left: 960px;
+  margin-left: 10px;
+  position:fixed;
+  bottom:88px;
+  text-decoration: none;
+
 }
