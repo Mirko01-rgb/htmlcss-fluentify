@@ -1,0 +1,102 @@
+/* Regole generali */
+
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parte3-row::after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.container{
+  width: 80%;
+  margin: 0 10%;
+}
+
+/* Parte header */
+header{
+ height: 40px;
+ /* debug */
+ background-color: red;
+}
+
+/* regole main */
+
+
+
+/* Parte main */
+.parte1{
+  /* debug */
+  background-color: orange;
+  height:200px;
+
+}
+
+.parte2{
+  /* debug */
+  background-color: lightblue;
+  height:70px;
+
+}
+
+.sezione1{
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+
+  /* debug */
+  background-color: lightblue;
+  height:100px;
+
+}
+
+.sezione2{
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  /* margin: 0 2.5%; */
+  /* debug */
+  background-color: lightblue;
+  height:100px;
+}
+
+.sezione3{
+  float: left;
+  width: 33.3%;
+  border: 1px solid black;
+  /* debug */
+  background-color: lightblue;
+  height:100px;
+
+}
+
+.sezione4{
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+  /* debug */
+  background-color: blue;
+  height:100px;
+
+}
+
+.sezione5{
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+  /* debug */
+  background-color: blue;
+  height:100px;
+
+}
+
+.footer{
+  /* debug */
+  height: 40px;
+  background-color: purple;
+}
