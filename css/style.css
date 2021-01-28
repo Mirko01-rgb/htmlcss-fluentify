@@ -31,6 +31,11 @@ header{
 
 }
 
+.main-nav ol li a img{
+  padding-bottom:0;
+  vertical-align: bottom; 
+}
+
 .main-nav li {
   display: inline-block;
   list-style-type: none;
