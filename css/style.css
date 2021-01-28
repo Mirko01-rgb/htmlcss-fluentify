@@ -1,7 +1,7 @@
 /* Regole generali */
 
 *{
-  border: 0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -264,6 +264,7 @@ span .select {
   padding: 15px 30px 15px 0;
   text-decoration: underline;
   font-size: 15px;
+  border: 0;
 }
 
 .green-buttom a{
@@ -272,7 +273,9 @@ span .select {
   padding: 20px 15px;
   border-radius: 5px;
   color: white;
+
   text-decoration: none;
+
 }
 
 .green-help a{
@@ -283,7 +286,6 @@ span .select {
   color: white;
   margin-left: 10px;
   position:fixed;
-  bottom:88px;
+  bottom:80px;
   text-decoration: none;
-
 }
